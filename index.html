@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of an IT student.">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                &#9776;
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="hero container">
+            <div class="hero-text">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>JHEREMY KURT MAS GARCIANO</span></h1>
+                <h2>IT Student &amp; Aspiring Web Developer</h2>
+                <p>
+                    I'm passionate about learning programming,
+                    creating websites, and improving my skills
+                    in information technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="profile-frame">
+                <img src="assets/profile.jpg"
+                     alt="My professional profile photo">
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+
+                <div class="about-content">
+                    <h3>Get to Know Me</h3>
+                    <p>
+                        Hello! I'm JHEREMY KURT MAS GARCIANO, an Information
+                        Technology student who enjoys exploring
+                        computers, programming, and web development.
+                    </p>
+                    <p>
+                        My goal is to become a skilled IT professional
+                        and create useful technology solutions.
+                        I continuously practice coding and work on
+                        school projects to improve my knowledge.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <p class="section-description">
+                    Technologies and programming skills I'm learning.
+                </p>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Web page structure</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Web design and styling</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Website interactivity</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <p>Programming fundamentals</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>C++</h3>
+                        <p>Logic and problem-solving</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>SQL</h3>
+                        <p>Database fundamentals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <p class="section-description">
+                    Some of the projects I've worked on.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="assets/project1.jpg"
+                             alt="Screenshot of my first project"
+                             loading="lazy">
+                        <div class="project-content">
+                            <h3>Project 1: Payroll System</h3>
+                            <p>
+                                A Python-based program for recording
+                                employee information, working hours,
+                                and calculating payroll.
+                            </p>
+                            <p class="project-note">
+                                https://github.com/LOKI-KJ/Payroll.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/project2.jpg"
+                             alt="Screenshot of my second project"
+                             loading="lazy">
+                        <div class="project-content">
+                            <h3>Project 2: Student Manager</h3>
+                            <p>
+                                A student management project for
+                                organizing records and practicing
+                                database operations.
+                            </p>
+                            <p class="project-note">
+                                https://github.com/LOKI-KJ/Student-Manager.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/project3.jpg"
+                             alt="Screenshot of my third project"
+                             loading="lazy">
+                        <div class="project-content">
+                            <h3>Project 3: Personal Website</h3>
+                            <p>
+                                A responsive personal website
+                                created using HTML, CSS,
+                                and JavaScript.
+                            </p>
+                            <p class="project-note">
+                                https://github.com/LOKI-KJ/Personal-Websites.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">
+    My <span>Education</span>
+</h2>
+
+                <div class="education-card">
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>School: ICCT COLLEGES</p>
+                    <p>Year Level: Second Year</p>
+                    <p>
+                        Relevant learning: programming fundamentals,
+                        web development, and database management.
+                    </p>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-alt">
+            <div class="container contact-section">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+
+                <p>
+                    Interested in connecting or discussing a project?
+                    You can reach me through my professional email.
+                </p>
+
+                <a class="btn" href="mailto:yourname@example.com">
+                    Send Me an Email
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; <span id="year"></span>
+                
+                 JHEREMY KURT MAS GARCIANO. All rights reserved.
+            </p>
+            <a href="#home">Back to Top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
